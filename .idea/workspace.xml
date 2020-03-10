@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2921e07-54af-4da5-89b8-808e2be00b51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/store.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form_error.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravelproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravelproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +111,7 @@
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/jeremeamia/superclosure" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1YsN9kROe8TA23HNZEJVpCniJYi" />
@@ -128,7 +127,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -158,7 +157,7 @@
       <workItem from="1583727200864" duration="19080000" />
       <workItem from="1583753890529" duration="11011000" />
       <workItem from="1583769556946" duration="34000" />
-      <workItem from="1583769610462" duration="365000" />
+      <workItem from="1583769610462" duration="9622000" />
     </task>
     <servers />
   </component>
@@ -182,17 +181,17 @@
       <screen x="0" y="22" width="1891" height="1058" />
     </state>
     <state width="1848" height="278" key="GridCell.Tab.0.right/0.22.1891.1058@0.22.1891.1058" timestamp="1583739574551" />
-    <state x="454" y="171" key="SettingsEditor" timestamp="1583738212836">
+    <state x="454" y="171" width="982" height="813" key="SettingsEditor" timestamp="1583773973196">
       <screen x="0" y="22" width="1891" height="1058" />
     </state>
-    <state x="454" y="171" key="SettingsEditor/0.22.1891.1058@0.22.1891.1058" timestamp="1583738212836" />
+    <state x="454" y="171" width="982" height="813" key="SettingsEditor/0.22.1891.1058@0.22.1891.1058" timestamp="1583773973196" />
     <state x="572" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583769565225">
       <screen x="0" y="22" width="1891" height="1058" />
     </state>
     <state x="572" y="188" key="com.intellij.ide.util.TipDialog/0.22.1891.1058@0.22.1891.1058" timestamp="1583769565225" />
-    <state x="610" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583731417961">
+    <state x="610" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583771609737">
       <screen x="0" y="22" width="1891" height="1058" />
     </state>
-    <state x="610" y="250" width="670" height="676" key="search.everywhere.popup/0.22.1891.1058@0.22.1891.1058" timestamp="1583731417961" />
+    <state x="610" y="250" width="670" height="676" key="search.everywhere.popup/0.22.1891.1058@0.22.1891.1058" timestamp="1583771609737" />
   </component>
 </project>
